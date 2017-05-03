@@ -120,7 +120,7 @@
       }
 
       if (determinant(perspectiveMatrix) === 0) {
-        return false;
+        return null;
       }
 
       var rhs = [];
